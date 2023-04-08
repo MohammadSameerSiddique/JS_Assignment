@@ -1,3 +1,16 @@
+
+// 1. Ask user about her/his age through prompt
+// 2. If the user is 10 year old or younger it should print "Welcome"
+// 3. If the user is over 10 print "You are not allowed"
+
+// let userAge = +prompt ("Enter your age");
+// if (userAge <= 10) {
+//     alert("Welcome");
+// } else {
+//     alert("You are not allowed");
+// }
+
+
 // 1. Write a JavaScript program that accepts two numbers in two prompts and
 // displays the larger one in the console.
 
@@ -5,6 +18,7 @@
 // let num2 = +prompt("Enter any number");
 // let result = Math.max(num1,num2);
 // console.log("The largest number is : " + result);
+
 
 // 2. Write a JavaScript conditional statement to find the sign of a number. Display
 // an alert box with the specified sign.
@@ -30,6 +44,7 @@
 // let result = Math.max(num1,num2,num3,num4,num5);
 // console.log("The largest number is : " + result);
 
+
 // 4. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it
 // will check if the current number is odd or even, and display a message to the screen.
 
@@ -40,6 +55,7 @@
 //     console.log(i + " is odd");
 //   }
 // }
+
 
 // 5. Write a JavaScript program which computes the average marks of the
 // following students Then, this average is used to determine the corresponding
@@ -65,6 +81,7 @@
 //   console.log("Your Grade is Invalid");
 // }
 
+
 // 6. Write a JavaScript program which iterates the integers from 1 to 100. But for
 // multiples of three print "Fizz" instead of the number and for the multiples of five
 // print "Buzz". For numbers which are multiples of both three and five print
@@ -79,6 +96,7 @@
 //         console.log( i + " Buzz")
 //     }
 // }
+
 
 // 7. Write a JavaScript program to construct the following pattern, using a nested
 // for loop.
