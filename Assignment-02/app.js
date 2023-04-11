@@ -101,24 +101,5 @@
 //   console.log(convertobject);
 // };
 // obj();
-// 8. Write a function that takes an object and saves each property to
-// localStorage using the property name as the key and the property value as
-// the value. The function should also retrieve the object from localStorage
-// and return it as a new object.
-function saveToLocalStorage(obj) {
-    Object.keys(obj).forEach((key) => localStorage.setItem(key, JSON.stringify(obj[key]))
-    );
 
-    const storedEntries = Object.keys(localStorage).reduce((entries, key) => {
-        entries[key] = JSON.parse(localStorage.getItem(key));
-        return entries;
-    }, {});
-
-    return storedEntries;
-}
-let myObj = {
-    name: "Tayyaba",
-    email: "ta6402792@gmail.com",
-    country: "Pakistan",
-};
 
