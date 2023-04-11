@@ -7,7 +7,7 @@
 //     return (num2) => {
 //         console.log(num1 + num2)
 //     }
-// }
+// };
 // let add = closure(5);
 // let add2 = closure(15);
 // add(10);
